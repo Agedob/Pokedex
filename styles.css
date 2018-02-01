@@ -1,4 +1,24 @@
 *{
     margin: 0px;
     padding: 0px;
+    vertical-align: top;
+}
+
+body{
+    width: 970px;
+}
+
+.poke_pic, .Pokedex{
+    display: inline-block;
+    width: 65%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Pokedex{
+    width: 25%;
+    text-align: center;
+    border: 20px;
+    border-color: red;
+    border-style: groove;
 }
