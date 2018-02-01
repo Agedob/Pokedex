@@ -22,3 +22,11 @@ body{
     border-color: red;
     border-style: groove;
 }
+
+li{
+    list-style-position: inside;
+}
+
+h1{
+    text-transform: capitalize;
+}
