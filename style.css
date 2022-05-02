@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+    background-color: rgb( 69 69 69);
+    color: #FFF;
+    vertical-align: top;
+    /* border: 1px solid green; */
+}
+
+#container {
+    padding: .5em;
+    background-color: black;
+
+}
+
+#pokedex_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    /* height: 15%; */
+    margin: 1em auto;
+    padding: 1em;
+    border: .25em red solid;
+}
+ul{
+    /* list-style-position: inside; */
+    display: contents;
+}
+#pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img{
+    /* padding: 1px; */
+    margin: 0.25em 0.25em;
+    border: 1px green solid;
+}
